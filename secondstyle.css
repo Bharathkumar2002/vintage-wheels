@@ -1,0 +1,315 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+    
+  }
+  #top{
+    background-color: yellow;
+    height: 100%;
+    width:100%;
+    position: relative;
+    
+  }
+  #nav{
+    background-color: #2f2e2e;
+    height: 10%;
+    width:100%;
+    position: sticky;
+    top:0%;
+    z-index: 1;
+    
+    
+  }
+  #content{
+    
+    background-color: white;
+    height: 90%;
+    width:100%;
+    position: relative;
+    
+  }
+  #steering{
+    height:40%;
+    width:30%;
+    top:30.5%;
+    left:20%;
+    position: absolute;
+    
+  }
+
+
+
+  #bottom{
+    background-color:#2f2e2e;
+    position: relative;
+    height:8%;
+    width:100%;
+  }
+  #border{
+    border: 0.2px solid gray;
+    width:30%;
+    height: 40%;
+    position: absolute;
+    top:30.5%;
+    left: 49.9%;
+}
+#book{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing:5px;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    top:15%;
+}
+#style{
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10%;
+    letter-spacing: 2px;
+    opacity: 70%;
+}
+#hrs{
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 5%;
+    opacity: 70%;
+}
+#rupee{
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 2%;
+    opacity: 70%;
+}
+#next{
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    padding: 10px 40px;
+    position:relative;
+    text-align: center;
+    left:32%;
+    top:15%;
+}
+#e1{
+    color:white;
+    position: absolute;
+    left:47%;
+    font-size: 20px;
+    top:15%;
+}
+#e2{
+    color:white;
+    position: absolute;
+    left:49%;
+    font-size: 20px;
+    top:15%;
+}
+#e3{
+    color:white;
+    position: absolute;
+    left:51%;
+    font-size: 20px;
+    top:15%;
+}
+@media only screen and (max-width:1100px){
+    
+    #next{
+        position: relative;
+        left: 20%;
+    }
+    #e1{
+        position: absolute;
+        
+    }
+    #e2{
+        position: absolute;
+        padding-left: 2%;
+        
+    }
+    #e3{
+        position: absolute;
+        padding-left: 5%;
+        
+    }
+
+}
+@media only screen and (max-width:900px) {
+    
+    #next{
+        position: relative;
+        left: 15%;
+        top:10%
+    }
+    #steering{
+        margin-top: 10%;
+        height:30%;
+    }
+    #border{
+        height: 30%;
+        margin-top: 10%;
+    }
+    #e1{
+        position: absolute;
+        
+    }
+    #e2{
+        position: absolute;
+        padding-left: 2%;
+        
+    }
+    #e3{
+        position: absolute;
+        padding-left: 5%;
+        
+    }
+    
+    
+}
+@media only screen and (max-width:800px) {
+    
+    #next{
+        position: relative;
+        left: 22%;
+        top:7%;
+    }
+    #steering{
+        
+        height:30%;
+        width: 40%;
+        top:20%;
+        position: relative;
+        left: 10%;
+    }
+    #border{
+        height: 30%;
+        width: 40%;
+        margin-top: 10%;
+    }
+    #e1{
+        position: absolute;
+        
+    }
+    #e2{
+        position: absolute;
+        padding-left: 2%;
+        
+    }
+    #e3{
+        position: absolute;
+        padding-left: 5%;
+        
+    }
+    
+    
+}
+@media only screen and (max-width:700px) 
+{
+    
+    #next{
+        position: relative;
+        left: 25%;
+        top:10%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #steering{
+        
+        height:30%;
+        width: 40%;
+        top:20%;
+        position: relative;
+        left: 10%;
+    }
+    #border{
+        height: 30%;
+        width: 40%;
+        margin-top: 10%;
+    }
+    #e1{
+        position: absolute;
+        
+    }
+    #e2{
+        position: absolute;
+        padding-left: 2%;
+        
+    }
+    #e3{
+        position: absolute;
+        padding-left: 5%;
+        
+    }
+}
+@media only screen and (max-width:600px) {
+    
+    #next{
+        position: relative;
+        left: 22%;
+        top:10%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #steering{
+        
+        height:30%;
+        width: 40%;
+        top:20%;
+        position: relative;
+        left: 10%;
+    }
+    #border{
+        height: 30%;
+        width: 40%;
+        margin-top: 10%;
+    }
+    #e1{
+        position: absolute;
+        
+    }
+    #e2{
+        position: absolute;
+        padding-left: 2%;
+        
+    }
+    #e3{
+        position: absolute;
+        padding-left: 5%;
+        
+    }
+    
+    
+}
+@media only screen and (max-width:400px) {
+   
+    #steering{
+        width:90%;
+        height:30%;
+        position: relative;
+        left: 5%;
+        top:20%;
+    }
+    #border{
+        width: 90%;
+        height: 30%;
+        left: 5%;
+        top: 55%;
+    }
+    #next{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    
+    
+}
+

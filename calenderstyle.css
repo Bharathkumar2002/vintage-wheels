@@ -1,0 +1,758 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:rgb(146, 39, 39);
+    cursor: pointer;
+}
+button{
+    background-color: white;
+}
+#top{
+    
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+#topduplicate{
+    
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    background-color:#2f2e2e;
+    height:10%;
+    width:100%;
+    position: sticky;
+    top:0%;
+    z-index: 1;
+}
+#content{
+    
+    height:90%;
+    width: 100%;
+    position: relative;
+}
+#style{
+    position: absolute;
+    left:35%;
+    top:10%;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+}
+#style1{
+    position: absolute;
+    left:31.5%;
+    top:20%;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    opacity: 70%;
+}
+#date{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top:38%;
+    left:43%;
+    font-size: 20px;
+}
+#input{
+    position: absolute;
+    height:05%;
+    width:20%;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: white;
+    top:45%;
+    left: 40%;
+}
+#btn{
+    padding-top:3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    position: absolute;
+    top:45%;
+    left: 63%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+}
+#time{
+    
+    height:45%;
+    width: 25%;
+    position: absolute;
+    left: 37%;
+    top:50%;
+    opacity: 0%;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#btn1{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:5%;
+    left:10%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn2{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:5%;
+    left:60%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn3{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:20%;
+    left: 10%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn4{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:20%;
+    left: 60%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn5{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:35%;
+    left: 10%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn6{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:35%;
+    left: 60%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn7{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:50%;
+    left: 10%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn8{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 50%;
+    left: 60%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn9{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:65%;
+    left: 10%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn10{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:65%;
+    left: 60%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#time1{
+    
+    height:45%;
+    width: 25%;
+    position: absolute;
+    left: 37%;
+    top:50%;
+    opacity: 0%;
+    
+}
+#btn11{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:5%;
+    left:10%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn12{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:5%;
+    left:60%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn13{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:20%;
+    left: 10%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn14{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:20%;
+    left: 60%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn15{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:35%;
+    left: 10%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn16{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:35%;
+    left: 60%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn17{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:50%;
+    left: 10%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn18{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 50%;
+    left: 60%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn19{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:65%;
+    left: 10%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+}
+#btn20{
+    font-size:20px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:65%;
+    left: 60%;
+    border: 1px solid white;
+    background-color:#2f2e2e;
+    color:white;
+
+}
+#booking{
+    position: absolute;
+    left:80%;
+    top:45%;
+    font-family: 'Inter', sans-serif;
+    
+}
+#ride{
+    position: absolute;
+    left: 78.5%;
+    top:52%;
+    font-family: 'Inter', sans-serif;
+}
+#next{
+    position: absolute;
+    padding-left: 65px;;
+    padding-right: 65px;
+    padding-top:5px;;
+    padding-bottom: 5px;
+    font-size: 15px;
+    left:81.5%;;
+    top:60%;
+    border: none;
+    border: 1px solid black;
+    background-color: black;
+    color:white;
+    font-family: 'Inter', sans-serif;
+}
+#down{
+    background-color: black;
+    height:15%;
+    width:100%;
+}
+@media only screen and (max-width:1200px) {
+    #nav{
+        background-color:#2f2e2e;
+    }
+    #booking{
+        font-size: 18px;
+        
+    }
+    #ride{
+        font-size: 15px;
+        
+    }
+    #next{
+        position: relative;
+        left:80%;;
+        top:53%;
+        
+    }
+    #date{
+        
+        position: relative;
+        left: 42%;
+        font-size: 16px;
+        width:20%;
+        top:35%
+    }
+    #style1{
+        position: relative;
+        left: 30%;
+    }
+    #time1{
+        position: absolute;
+        left:35%;
+        
+        top:53%;
+        width:30%;
+
+    }
+    #time{
+        position: relative;
+        left:35%;
+        
+        top:40%;
+        width:30%;
+
+    }
+    
+    
+    
+    
+}
+@media only screen and (max-width:1100px) {
+    #top{
+        height:120%;
+    }
+    #content{
+        height: 100%;
+        
+    }
+    #nav{
+        background-color:#2f2e2e;
+    }
+    #style{
+        position: relative;
+        top:5%;
+        
+        width:60%;
+    }
+    #style1{
+        
+        width:70%;
+        position: relative;
+        top:8%;
+    }
+    #date{
+        position: relative;
+        text-align: center;
+        top:15%;
+    }
+    #input{
+        width:30%;
+        position: relative;
+        top:17%;
+    }
+    #btn{
+        position: relative;
+        left: 40%;
+        top:17%;
+        width:10%;
+        padding-top: 7px;
+        padding-bottom:7px;
+        
+        
+    }
+    #time1{
+        width:30%;
+        position: absolute;
+        top:33%;
+        height: 35%;
+        left: 38%;
+    }
+    #time{
+        width:30%;
+        position: relative;
+        top:18%;
+        height: 35%;
+        left: 38%;
+    }
+    #next{
+        position:absolute;
+        left: 47%;
+        top:80%;
+        
+    }
+    #booking{
+        
+        position: absolute;
+        left:48%;
+        top:70%;
+
+    }
+    #ride{
+       
+        position: absolute;
+        left:46%;
+        top:75%;
+
+    }
+    #down{
+        height: 20%;
+    }
+}
+@media only screen and (max-width:1000px) {
+    #nav{
+        background-color:#2f2e2e;
+    }
+    
+    #time1{
+        position: absolute;
+        width: 40%;;
+        left: 28%;
+    }
+    #time{
+        position: relative;
+        width: 40%;;
+        left: 28%;
+    }
+    #style{
+        position: relative;
+        left: 25%;
+       
+    }
+    #style1{
+        position: relative;
+        left: 20%;
+        
+    }
+    #date{
+        position: absolute;
+        
+        width:40%;
+        top:20%;
+        left: 30%;
+        
+
+    }
+    #input{
+        width:38%;
+        position: relative;
+        left: 30%;
+    }
+    #btn{
+        position: relative;
+        left: 32%;
+    }
+    #booking{
+        
+        position: absolute;
+        left: 38%;
+    }
+    #ride{
+        
+        position: absolute;
+        left: 35%;
+    }
+    #next{
+      
+        position: absolute;
+        left: 36.5%;
+    }
+    
+}
+@media only screen and (max-width:800px) {
+    #nav{
+        background-color:#2f2e2e;
+    }
+    #style{
+       
+        position: absolute;
+        font-size: 24px;
+    }
+    #style1{
+        
+        font-size:14px;
+        width: 80%;
+        position: absolute;
+        top:10%;
+        left: 12.5%;
+    }
+    #input{
+        position: absolute;
+        width: 45%;
+        left: 25%;
+        top:20%;
+    }
+    #btn{
+        position: absolute;
+        left: 75%;
+        width: 20%;
+        top:20%;
+    }
+    #time1{
+        position: absolute;
+        width:50%;
+        top:30%;
+        left: 20%;
+
+    }
+    #time{
+        position: absolute;
+        width:50%;
+        top:30%;
+        left: 20%;
+
+    }
+    #booking{
+        position: absolute;
+        left:34%;
+    }
+    #ride{
+        position: absolute;
+        left: 30%;
+    }
+    #next{
+        position: absolute;
+        left: 33%;
+    }
+    #date{
+        position: absolute;
+        top:15%;
+        left: 27%;
+    }
+    
+    
+}
+@media only screen and (max-width:600px) {
+    #nav{
+        background-color:#2f2e2e;
+    }
+    #style{
+        position: absolute;
+        font-size: 20px;
+    }
+    #style1{
+        position: absolute;
+        font-size: 11px;
+        left: 15%;
+    }
+    #input{
+        position: absolute;
+        width: 50%;
+        left: 20%;
+    }
+    #time1{
+        position: absolute;
+        width: 60%;
+        left: 13%;
+    }
+    #time{
+        position: absolute;
+        width: 60%;
+        left: 13%;
+    }
+    #booking{
+        position: absolute;
+        left: 30%;
+    }
+    #ride{
+        position: absolute;
+        left: 25%;
+    }
+    #next{
+        position: absolute;
+        left: 27%;
+    }
+    
+    
+}
+@media only screen and (max-width:400px) {
+    #nav{
+        background-color:#2f2e2e;
+    }
+    #style{
+        position: absolute;
+        width:80%;
+        left: 17%;
+        
+    }
+    #style1{
+        position: absolute;
+        width: 95%;
+        left: 2.8%;
+
+    }
+    #date{
+        position: absolute;
+        left: 10%;;
+        width: 80%;
+    }
+    #input{
+        width:60%;
+        position: absolute;
+        left: 10%;
+    }
+    #btn{
+        position: absolute;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        left: 73%;
+        top:20.2%
+
+    }
+    #time{
+        width:80%;
+        position: absolute;
+        left: 0%;
+        top:25%;
+    }
+    #time1{
+        width:80%;
+        position: absolute;
+        left: 0%;
+        top:25%;
+    }
+    
+    
+}
